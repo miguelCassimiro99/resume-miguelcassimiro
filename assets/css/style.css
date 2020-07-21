@@ -37,7 +37,7 @@ section {
 .profile-picture {
     height: 150px;
     width: 150px;
-    border: 1px solid red;
+    border: 9px solid red;
     border-radius: 100%;
     margin-bottom: 5px;
     display: flex;
@@ -50,6 +50,10 @@ section {
     padding-bottom: 70px;
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.container-fluid {
+    border: 1px solid black;
 }
 
 

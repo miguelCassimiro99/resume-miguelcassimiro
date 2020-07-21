@@ -5,6 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Bootstrap and CSS -->
+    <script src="https://kit.fontawesome.com/062c903d90.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@800&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Mulish" rel="stylesheet" />
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" /> -->
@@ -25,13 +26,15 @@
               >
             </button>
                 </div>
-
+                <!-- about -->
                 <div class="collapse navbar-collapse bg-dark" id="resume-header-items">
                     <ul class="nav flex-column nav-pills" id="header-pill-tab" role="tablist" aria-orientation="vertical">
                         <li>
                             <a class="nav-link js-scroll-trigger" id="pills-about-tab" data-toggle="pill" href="#pills-about" role="tab " aria-controls="pills-about-tab " aria-selected="false ">about</a
                 >
               </li>
+
+              <!-- experience -->
               <li>
                 <a
                   class="nav-link js-scroll-trigger"
@@ -44,6 +47,7 @@
                   >experience</a
                 >
               </li>
+              <!-- education -->
               <li>
                 <a
                   class="nav-link js-scroll-trigger"
@@ -56,6 +60,7 @@
                   >education</a
                 >
               </li>
+              <!-- skills -->
               <li>
                 <a
                   class="nav-link js-scroll-trigger"
@@ -68,6 +73,7 @@
                   >skills</a
                 >
               </li>
+              <!-- interests -->
               <li>
                 <a
                   class="nav-link js-scroll-trigger"
@@ -80,6 +86,7 @@
                   >interests</a
                 >
               </li>
+              <!-- awards -->
               <li>
                 <a
                   class="nav-link js-scroll-trigger"
@@ -99,12 +106,69 @@
 
       <!-- resume-content -->
       <section class="resume-content">
-        <h2>miguel cassimiro</h2>
+        <div class="tab-content" id="resume-header-content">
+          <!-- about -->
+          <div
+            class="tab-pane fade show"
+            id="pills-about"
+            role="tabpanel"
+            aria-labelledby="pills-about-tab"
+          >
+            <div class="container-fluid">
+              <div class="d-flex"></div>
+            </div>
+          </div>
+
+          <!-- experience -->
+          <div
+            class="tab-pane fade"
+            id="pills-experience"
+            role="tabpanel"
+            aria-labelledby="pills-experience-tab"
+          >
+            <h1>experience</h1>
+          </div>
+          <!-- education -->
+          <div
+            class="tab-pane fade"
+            id="pills-education"
+            role="tabpanel"
+            aria-labelledby="pills-education-tab"
+          >
+            <h1>education</h1>
+          </div>
+          <!-- skills -->
+          <div
+            class="tab-pane fade"
+            id="pills-skills"
+            role="tabpanel"
+            aria-labelledby="pills-skills-tab"
+          >
+            <h1>skills</h1>
+          </div>
+          <!-- interests -->
+          <div
+            class="tab-pane fade"
+            id="pills-interests"
+            role="tabpanel"
+            aria-labelledby="pills-interests-tab"
+          >
+            <h1>interests</h1>
+          </div>
+          <!-- awards -->
+          <div
+            class="tab-pane fade"
+            id="pills-awards"
+            role="tabpanel"
+            aria-labelledby="pills-awards-tab"
+          >
+            <h1>awards</h1>
+          </div>
+        </div>
       </section>
     </div>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js "
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN "
