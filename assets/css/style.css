@@ -1,24 +1,83 @@
+html,
 body {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: "Mulish", sans-serif;
 }
 
 
-/* FONTS*/
-
-h1 {
-    font-family: 'Saira Extra Condensed', sans-serif;
-}
-
-h2 {
-    font-family: 'Mulish', sans-serif;
-}
-
-
-/*
-# fonts
+/*  # FONTS
 name and titles: saira extra condensed
 font-family: 'Saira Extra Condensed', sans-serif;
 texts: muli 
 font-family: 'Mulish', sans-serif;
 */
+
+.main-content {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 100vh;
+    grid-template-areas: "header section";
+}
+
+header {
+    border: 1px solid red;
+    grid-area: header;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    border: 1px solid red;
+    grid-area: section;
+}
+
+.profile-picture {
+    height: 150px;
+    width: 150px;
+    border: 1px solid red;
+    border-radius: 100%;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-brand {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+/*  media query */
+
+@media (max-width: 600px) {
+    .main-content {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 5vh 95vh;
+    }
+    .resume-header {
+        grid-column: 1;
+        grid-row: 1 / 2;
+    }
+    .resume-content {
+        grid-column: 1;
+        grid-row: 2 / 3;
+    }
+    header {
+        display: block;
+        text-align: center;
+    }
+    .profile-picture {
+        display: block;
+        margin: 0px;
+        border: none;
+        width: 0px;
+        height: 0px;
+    }
+}

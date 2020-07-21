@@ -2,37 +2,134 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Bootstrap and CSS -->
-    <link href="https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@800&display=swap" rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css?family=Mulish' rel='stylesheet'>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Miguel Cassimiro</title>
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@800&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Mulish" rel="stylesheet" />
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" /> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous" />
 
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Miguel Cassimiro</title>
 </head>
 
 <body>
-    <!-- Resume Header -->
-    <header class="container">
-        <div class="nav flex-column nav-pills" id="header-pill-tab" role="tablist" aria-orientation="vertical">
-            <a class="nav-link active" id="pills-about-tab" data-toggle="pill" href="#pills-about" role="tab" aria-controls="pills-about-tab" aria-selected="true">about</a>
-            <a class="nav-link" id="pills-experience-tab" data-toggle="pill" href="#pills-experience" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</a>
-            <a class="nav-link" id="pills-education-tab" data-toggle="pill" href="#pills-education" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</a>
-            <a class="nav-link" id="pills-skills-tab" data-toggle="pill" href="#pills-skills" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a>
-            <a class="nav-link" id="pills-interests-tab" data-toggle="pill" href="#pills-interests" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a>
-            <a class="nav-link" id="pills-awards-tab" data-toggle="pill" href="#pills-awards" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a>
-        </div>
-    </header>
-    <!-- Resume Header - End -->
+    <div class="main-content">
+        <header class="resume-header">
+            <nav class="navbar navbar-dark">
+                <div class="profile-picture">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#resume-header-items" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <a class="nav-brand" href="#"
+                ><span class="profile-name">MIGUEL</span></a
+              >
+            </button>
+                </div>
 
+                <div class="collapse navbar-collapse bg-dark" id="resume-header-items">
+                    <ul class="nav flex-column nav-pills" id="header-pill-tab" role="tablist" aria-orientation="vertical">
+                        <li>
+                            <a class="nav-link js-scroll-trigger" id="pills-about-tab" data-toggle="pill" href="#pills-about" role="tab " aria-controls="pills-about-tab " aria-selected="false ">about</a
+                >
+              </li>
+              <li>
+                <a
+                  class="nav-link js-scroll-trigger"
+                  id="pills-experience-tab"
+                  data-toggle="pill"
+                  href="#pills-experience"
+                  role="tab "
+                  aria-controls="pills-experience "
+                  aria-selected="false "
+                  >experience</a
+                >
+              </li>
+              <li>
+                <a
+                  class="nav-link js-scroll-trigger"
+                  id="pills-education-tab"
+                  data-toggle="pill"
+                  href="#pills-education"
+                  role="tab "
+                  aria-controls="pills-education "
+                  aria-selected="false "
+                  >education</a
+                >
+              </li>
+              <li>
+                <a
+                  class="nav-link js-scroll-trigger"
+                  id="pills-skills-tab"
+                  data-toggle="pill"
+                  href="#pills-skills"
+                  role="tab "
+                  aria-controls="pills-skills "
+                  aria-selected="false "
+                  >skills</a
+                >
+              </li>
+              <li>
+                <a
+                  class="nav-link js-scroll-trigger"
+                  id="pills-interests-tab"
+                  data-toggle="pill"
+                  href="#pills-interests"
+                  role="tab "
+                  aria-controls="pills-interests "
+                  aria-selected="false "
+                  >interests</a
+                >
+              </li>
+              <li>
+                <a
+                  class="nav-link js-scroll-trigger"
+                  id="pills-awards-tab"
+                  data-toggle="pill"
+                  href="#pills-awards"
+                  role="tab "
+                  aria-controls="pills-awards "
+                  aria-selected="false "
+                  >awards</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
 
+      <!-- resume-content -->
+      <section class="resume-content">
+        <h2>miguel cassimiro</h2>
+      </section>
+    </div>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-</body>
 
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js "
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN "
+      crossorigin="anonymous "
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js "
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q "
+      crossorigin="anonymous "
+    ></script>
+    <!-- <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js "
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl "
+      crossorigin="anonymous "
+    ></script> -->
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+      crossorigin="anonymous"
+    ></script>
+
+    <script type="text/javascript">
+      $(".js-scroll-trigger").click(function () {
+        $(".navbar-collapse").collapse("hide");
+      });
+    </script>
+  </body>
 </html>
