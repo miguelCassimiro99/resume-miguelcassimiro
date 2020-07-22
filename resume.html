@@ -18,7 +18,7 @@
 <body>
     <div class="main-content">
         <header class="resume-header">
-            <nav class="navbar navbar-dark">
+            <nav class="navbar">
                 <div class="profile-picture">
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#resume-header-items" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <a class="nav-brand" href="#"
@@ -27,7 +27,7 @@
             </button>
                 </div>
                 <!-- about -->
-                <div class="collapse navbar-collapse bg-dark" id="resume-header-items">
+                <div class="collapse navbar-collapse" id="resume-header-items">
                     <ul class="nav flex-column nav-pills" id="header-pill-tab" role="tablist" aria-orientation="vertical">
                         <li>
                             <a class="nav-link js-scroll-trigger" id="pills-about-tab" data-toggle="pill" href="#pills-about" role="tab " aria-controls="pills-about-tab " aria-selected="false ">about</a
@@ -115,85 +115,94 @@
             aria-labelledby="pills-about-tab"
           >
             <div class="container-fluid">
-              <div class="d-flex"></div>
-            </div>
-          </div>
+              <div class="d-flex">
+                <div class="d-flex flex-column bd-highlight mb-3">
+                    <!-- profile: name, address, phone and mail -->
+                    <div class="p-2 bd-highlight f-item">
+                        <div class="profile-info">
+                            <div class="full-name">
+                                <h1 class="name1">miguel</h1>
+                                <h1 class="name2">cassimiro</h1>
+                            </div>
+                            <div class="contact">
+                                <span class="text1">
+                                    taubaté-sp | (12) 99775-1916 | 
+                                </span>
+                                <a href="#" class="mail">miguel.cassimiro99@gmail.com</a>
 
-          <!-- experience -->
-          <div
-            class="tab-pane fade"
-            id="pills-experience"
-            role="tabpanel"
-            aria-labelledby="pills-experience-tab"
-          >
-            <h1>experience</h1>
-          </div>
-          <!-- education -->
-          <div
-            class="tab-pane fade"
-            id="pills-education"
-            role="tabpanel"
-            aria-labelledby="pills-education-tab"
-          >
-            <h1>education</h1>
-          </div>
-          <!-- skills -->
-          <div
-            class="tab-pane fade"
-            id="pills-skills"
-            role="tabpanel"
-            aria-labelledby="pills-skills-tab"
-          >
-            <h1>skills</h1>
-          </div>
-          <!-- interests -->
-          <div
-            class="tab-pane fade"
-            id="pills-interests"
-            role="tabpanel"
-            aria-labelledby="pills-interests-tab"
-          >
-            <h1>interests</h1>
-          </div>
-          <!-- awards -->
-          <div
-            class="tab-pane fade"
-            id="pills-awards"
-            role="tabpanel"
-            aria-labelledby="pills-awards-tab"
-          >
-            <h1>awards</h1>
-          </div>
+                </div>
+    </div>
+    </div>
+
+
+    <!-- profile: resume paragraph -->
+    <div class="p-2 bd-highlight f-item">
+        <div class="resume-paragraph">
+            <p>
+                I recently have been learned about front-end development looking for a carreer transition. Actualy working as Suport Analist and deal with people, my goal is approaching the system's development that cause a real impact in the final users experience and
+                bring a value to their business.
+            </p>
         </div>
-      </section>
+    </div>
+
+
+    <!-- social-profiles: LinkedIn, Github and Facebook -->
+    <div class="p-2 bd-highlight f-item">
+        <div class="social-profiles">
+            <a href=""><span class="fab fa-linkedin fa-3x"></span></a>
+            <a href=""><span class="fab fa-github fa-3x"></span></a>
+            <a href=""><span class="fab fa-facebook fa-3x"></span></a>
+
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+    <!-- experience -->
+    <div class="tab-pane fade" id="pills-experience" role="tabpanel" aria-labelledby="pills-experience-tab">
+        <div class="container-fluid">
+            <div class="d-flex flex-column">
+                <!-- experience content -->
+            </div>
+        </div>
+    </div>
+    <!-- education -->
+    <div class="tab-pane fade" id="pills-education" role="tabpanel" aria-labelledby="pills-education-tab">
+        <h1>education</h1>
+    </div>
+    <!-- skills -->
+    <div class="tab-pane fade" id="pills-skills" role="tabpanel" aria-labelledby="pills-skills-tab">
+        <h1>skills</h1>
+    </div>
+    <!-- interests -->
+    <div class="tab-pane fade" id="pills-interests" role="tabpanel" aria-labelledby="pills-interests-tab">
+        <h1>interests</h1>
+    </div>
+    <!-- awards -->
+    <div class="tab-pane fade" id="pills-awards" role="tabpanel" aria-labelledby="pills-awards-tab">
+        <h1>awards</h1>
+    </div>
+    </div>
+    </section>
     </div>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js "
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN "
-      crossorigin="anonymous "
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js "
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q "
-      crossorigin="anonymous "
-    ></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q " crossorigin="anonymous "></script>
     <!-- <script
       src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js "
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl "
       crossorigin="anonymous "
     ></script> -->
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
-      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 
     <script type="text/javascript">
-      $(".js-scroll-trigger").click(function () {
-        $(".navbar-collapse").collapse("hide");
-      });
+        $(".js-scroll-trigger").click(function() {
+            $(".navbar-collapse").collapse("hide");
+        });
     </script>
-  </body>
+</body>
+
 </html>
