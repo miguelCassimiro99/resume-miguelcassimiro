@@ -134,22 +134,49 @@ section {
     text-transform: uppercase;
     font-size: 3rem;
     margin-left: 25px;
+    color: #312e2e;
 }
 
 .btn-experience {
     display: flex;
     border: 1px solid red;
+    align-items: center;
+    text-align: left;
 }
 
 .role-info {
     display: block;
     border: 1px solid black;
+    text-transform: uppercase;
+}
+
+.role-info h3,
+.role-info h4 {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.role-name {
+    font-size: 2.5rem;
+    color: #312e2e;
+}
+
+.company-name {
+    color: #6b6b6b;
+}
+
+.period-div {
+    font-family: "Mulish", sans-serif;
+    border: 1px solid black;
+    color: #7159c1;
 }
 
 .period-text {
-    border: 1px solid black;
-    color: #7159c1;
-    font-family: "Mulish", sans-serif;
+    font-size: 1rem;
+}
+
+.card-body {
+    color: #6b6b6b;
 }
 
 
@@ -203,5 +230,22 @@ section {
     }
     .section-title {
         font-size: 2.5rem;
+    }
+    .btn-experience {
+        display: block;
+    }
+    .role-info {
+        display: flex;
+        justify-content: space-between;
+    }
+    .role-name,
+    .company-name {
+        font-size: 1.2rem;
+    }
+    .period-text {
+        text-transform: uppercase;
+        font-size: 1rem;
+        text-align: center;
+        margin-bottom: 0px;
     }
 }
