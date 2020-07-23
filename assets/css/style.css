@@ -236,11 +236,12 @@ section {
     }
     .role-info {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
     }
     .role-name,
     .company-name {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
+        margin: 4px;
     }
     .period-text {
         text-transform: uppercase;
