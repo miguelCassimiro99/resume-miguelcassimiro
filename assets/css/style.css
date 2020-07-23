@@ -99,7 +99,8 @@ section {
 }
 
 .text1,
-.section-title {
+.section-title,
+.role-info {
     font-family: "Saira Extra Condensed", sans-serif;
 }
 
@@ -129,25 +130,26 @@ section {
 
 /* EXPERIENCE */
 
-.f-item-experience {
-    border: 1px solid red;
-}
-
 .section-title {
     text-transform: uppercase;
     font-size: 3rem;
+    margin-left: 25px;
 }
 
-.experience-item {
-    background-color: red;
+.btn-experience {
+    display: flex;
+    border: 1px solid red;
 }
 
+.role-info {
+    display: block;
+    border: 1px solid black;
+}
 
-/*  experience item composition */
-
-.nav-pills .experience-pill .nav-link {
-    background-color: red;
-    color: black;
+.period-text {
+    border: 1px solid black;
+    color: #7159c1;
+    font-family: "Mulish", sans-serif;
 }
 
 

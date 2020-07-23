@@ -171,22 +171,32 @@
                     <h2 class="section-title">experience</h2>
                 </div>
 
-                <!-- experience nav-pills -->
+                <!-- accordion content -->
                 <div class="p-2 bd-highlight f-item-experience">
-                    <div class="container-fluid">
-                        <div class="d-flex flex-row bd-highlight mt-3">
-                            <ul class="nav nav-pills nav-fill nav-justified">
-                                <li class="nav-item experience-pill">
-                                    <a class="nav-link active" href="#">Teste</a>
-                                </li>
-                            </ul>
+                    <div id="accordion">
+                        <!-- card 1 -->
+                        <div class="card">
+                            <div class="card-header" id="headingOne">
+                                <!-- button: profission, company, time -->
+                                <button class="btn btn-block btn-group-lg btn-experience" data-toggle="collapse" data-target="#about-profile-1">
+                          <div class="role-info">
+                            <h3 class="role-name"><span>suport analist</span></h3>
+                            <h4 class="company-name"><span>sistema acs</span></h4>
+                          </div>
+                          <div class="period-text">
+                            <h5><span>December 2019 - Present</span></h5>
+                          </div>
+                        </button>
+                            </div>
+                            <!-- card 1 content -->
+                            <div id="about-profile-1" class="collapse show">
+                                <div class="card-body">
+                                    <p>Trabalhei aqui ontem</p>
+                                </div>
+                            </div>
                         </div>
+                        <!-- card 2 -->
                     </div>
-                </div>
-
-                <!-- experience nav-pills paragraph -->
-                <div class="p-2 bd-highlight f-item-experience">
-                    <h4>Miguel Cassimiro</h4>
                 </div>
             </div>
         </div>
