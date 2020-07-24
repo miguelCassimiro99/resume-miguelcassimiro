@@ -100,7 +100,8 @@ section {
 
 .text1,
 .section-title,
-.role-info {
+.role-info,
+.education-info {
     font-family: "Saira Extra Condensed", sans-serif;
 }
 
@@ -137,16 +138,23 @@ section {
     color: #312e2e;
 }
 
+.education-info {
+    margin-left: 7px;
+    border: 1px solid red;
+}
+
+.div-education,
 .btn-experience {
     display: flex;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     align-items: center;
     text-align: left;
 }
 
+.education-info,
 .role-info {
     display: block;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     text-transform: uppercase;
 }
 
@@ -156,18 +164,20 @@ section {
     padding-bottom: 0px;
 }
 
+.graduation-name,
 .role-name {
     font-size: 2.5rem;
     color: #312e2e;
 }
 
+.school-name,
 .company-name {
     color: #6b6b6b;
 }
 
 .period-div {
     font-family: "Mulish", sans-serif;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     color: #7159c1;
 }
 
@@ -178,6 +188,13 @@ section {
 .card-body {
     color: #6b6b6b;
     overflow: hidden;
+}
+
+
+/*  EDUCATION  */
+
+.f-item-education {
+    border: 1px solid red;
 }
 
 
