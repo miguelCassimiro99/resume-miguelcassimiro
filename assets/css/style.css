@@ -98,6 +98,7 @@ section {
     color: #7159c1;
 }
 
+.tools-name,
 .text1,
 .section-title,
 .role-info,
@@ -170,6 +171,7 @@ section {
     color: #312e2e;
 }
 
+.tools-name,
 .school-name,
 .company-name {
     color: #6b6b6b;
@@ -195,6 +197,37 @@ section {
 
 .div-education {
     margin-top: 50px;
+}
+
+
+/* SKILLS */
+
+
+/* .f-item-skills-1,
+.f-item-skills {
+    border: 1px solid red;
+} */
+
+.f-item-skills-1 {
+    margin-top: 50px;
+    margin-left: 24px;
+}
+
+.tools-name {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+.tool-icon-item {
+    color: #6b6b6b;
+    margin: 10px 10px 0px 20px;
+}
+
+.workflow-list {
+    font-size: 1rem;
+    margin-top: 10px;
+    color: #6b6b6b;
+    margin-left: 10px;
 }
 
 
@@ -261,7 +294,8 @@ section {
     .role-name,
     .company-name,
     .graduation-name,
-    .school-name {
+    .school-name,
+    .tools-name {
         font-size: 1.3rem;
         margin: 4px;
     }
@@ -274,5 +308,11 @@ section {
     }
     .div-education {
         margin-top: 20px;
+    }
+    .tool-icon-item {
+        margin: 10px 10px 0px 10px;
+    }
+    .f-item-skills-1 {
+        margin-top: 10px;
     }
 }
