@@ -231,6 +231,24 @@ section {
 }
 
 
+/* INTERESTS */
+
+.f-item-interests,
+.f-item-interests-1 {
+    border: 1px solid red;
+}
+
+.interests-paragraph {
+    font-size: 1.1rem;
+    color: #6b6b6b;
+    margin-left: 24px;
+}
+
+.f-item-interests-1 {
+    margin-top: 100px;
+}
+
+
 /*  media query */
 
 @media (max-width: 600px) {
@@ -313,6 +331,9 @@ section {
         margin: 10px 10px 0px 10px;
     }
     .f-item-skills-1 {
+        margin-top: 10px;
+    }
+    .f-item-interests-1 {
         margin-top: 10px;
     }
 }
