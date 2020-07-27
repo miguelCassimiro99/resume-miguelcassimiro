@@ -294,6 +294,9 @@ section {
         grid-template-columns: 1fr;
         grid-template-rows: 5vh 95vh;
     }
+    .navbar {
+        z-index: 6;
+    }
     .resume-header {
         grid-column: 1;
         grid-row: 1 / 2;
