@@ -22,7 +22,7 @@ font-family: 'Mulish', sans-serif;
 }
 
 header {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     grid-area: header;
     display: flex;
     align-items: center;
@@ -31,11 +31,18 @@ header {
 }
 
 #header-pill-tab {
-    background-color: black;
+    background-color: #7159c1;
+    font-weight: bolder;
+    color: white;
+    text-transform: uppercase;
+}
+
+.nav-pills a {
+    color: white;
 }
 
 section {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     grid-area: section;
 }
 
@@ -230,13 +237,24 @@ section {
     margin-left: 10px;
 }
 
+.award-list-item {
+    font-size: 1rem;
+    /* margin-top: 10px; */
+    color: #6b6b6b;
+}
+
+.award-list {
+    margin-top: 80px;
+}
+
 
 /* INTERESTS */
 
-.f-item-interests,
+
+/* .f-item-interests,
 .f-item-interests-1 {
     border: 1px solid red;
-}
+} */
 
 .interests-paragraph {
     font-size: 1.1rem;
@@ -246,6 +264,18 @@ section {
 
 .f-item-interests-1 {
     margin-top: 100px;
+}
+
+
+/* AWARDS */
+
+.list-group-item {
+    display: flex;
+    align-items: center;
+}
+
+.fa-award {
+    color: #7159c1;
 }
 
 
@@ -335,5 +365,12 @@ section {
     }
     .f-item-interests-1 {
         margin-top: 10px;
+    }
+    .award-list {
+        margin-top: 15px;
+    }
+    .award-title {
+        font-size: 1rem;
+        font-weight: bolder;
     }
 }
