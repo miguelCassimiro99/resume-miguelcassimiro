@@ -1,0 +1,392 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mulish", sans-serif;
+}
+
+
+/*  # FONTS
+name and titles: saira extra condensed
+font-family: 'Saira Extra Condensed', sans-serif;
+texts: muli 
+font-family: 'Mulish', sans-serif;
+*/
+
+.main-content {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 100vh;
+    grid-template-areas: "header section";
+}
+
+header {
+    /* border: 1px solid red; */
+    grid-area: header;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #7159c1;
+}
+
+#header-pill-tab {
+    background-color: #7159c1;
+    font-weight: bolder;
+    color: white;
+    text-transform: uppercase;
+}
+
+.nav-pills a {
+    color: white;
+}
+
+section {
+    /* border: 1px solid red; */
+    grid-area: section;
+}
+
+.profile-picture {
+    height: 150px;
+    width: 150px;
+    border: 9px solid #8f71ee;
+    border-radius: 100%;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("perfil.png");
+    color: rgb(0, 0, 0, 1);
+}
+
+.nav-brand {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: rgb(0, 0, 0, 0);
+}
+
+.nav-brand:hover {
+    color: rgb(0, 0, 0, 0);
+}
+
+
+/* ABOUT*/
+
+.full-name {
+    display: flex;
+}
+
+.name1,
+.name2 {
+    margin: 6px;
+    font-family: "Saira Extra Condensed", sans-serif;
+    text-transform: uppercase;
+    font-size: 5rem;
+}
+
+.name1 {
+    color: #312e2e;
+}
+
+.name2 {
+    color: #7159c1;
+}
+
+.contact {
+    color: #312e2e;
+    margin-left: 6px;
+    font-size: 1.6rem;
+    display: flex;
+    text-transform: uppercase;
+}
+
+.mail {
+    margin-left: 5px;
+    color: #7159c1;
+    font-family: "Saira Extra Condensed", sans-serif;
+}
+
+.contact a:hover {
+    color: #7159c1;
+}
+
+.tools-name,
+.text1,
+.section-title,
+.role-info,
+.education-info {
+    font-family: "Saira Extra Condensed", sans-serif;
+}
+
+.resume-paragraph {
+    margin-left: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 1.4rem;
+    color: #6b6b6b;
+}
+
+.social-profiles {
+    margin: 10px;
+}
+
+.social-profiles a {
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+    color: #312e2e;
+}
+
+.social-profiles a:hover {
+    color: #7159c1;
+}
+
+
+/* EXPERIENCE */
+
+.section-title {
+    text-transform: uppercase;
+    font-size: 3rem;
+    margin-left: 25px;
+    color: #312e2e;
+}
+
+.education-info {
+    margin-left: 7px;
+    /* border: 1px solid red; */
+}
+
+.div-education,
+.btn-experience {
+    display: flex;
+    /* border: 1px solid red; */
+    align-items: center;
+    text-align: left;
+}
+
+.education-info,
+.role-info {
+    display: block;
+    /* border: 1px solid black; */
+    text-transform: uppercase;
+}
+
+.role-info h3,
+.role-info h4 {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.graduation-name,
+.role-name {
+    font-size: 2.2rem;
+    color: #312e2e;
+}
+
+.tools-name,
+.school-name,
+.company-name {
+    color: #6b6b6b;
+}
+
+.period-div {
+    font-family: "Mulish", sans-serif;
+    /* border: 1px solid black; */
+    color: #7159c1;
+}
+
+.period-text {
+    font-size: 1rem;
+}
+
+.card-body {
+    color: #6b6b6b;
+    overflow: hidden;
+}
+
+
+/*  EDUCATION  */
+
+.div-education {
+    margin-top: 50px;
+}
+
+
+/* SKILLS */
+
+
+/* .f-item-skills-1,
+.f-item-skills {
+    border: 1px solid red;
+} */
+
+.f-item-skills-1 {
+    margin-top: 50px;
+    margin-left: 24px;
+}
+
+.tools-name {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+.tool-icon-item {
+    color: #6b6b6b;
+    margin: 10px 10px 0px 20px;
+}
+
+.workflow-list {
+    font-size: 1rem;
+    margin-top: 10px;
+    color: #6b6b6b;
+    margin-left: 10px;
+}
+
+.award-list-item {
+    font-size: 1rem;
+    /* margin-top: 10px; */
+    color: #6b6b6b;
+}
+
+.award-list {
+    margin-top: 80px;
+}
+
+
+/* INTERESTS */
+
+
+/* .f-item-interests,
+.f-item-interests-1 {
+    border: 1px solid red;
+} */
+
+.interests-paragraph {
+    font-size: 1.1rem;
+    color: #6b6b6b;
+    margin-left: 24px;
+}
+
+.f-item-interests-1 {
+    margin-top: 100px;
+}
+
+
+/* AWARDS */
+
+.list-group-item {
+    display: flex;
+    align-items: center;
+}
+
+.fa-award {
+    color: #7159c1;
+}
+
+
+/*  media query */
+
+@media (max-width: 600px) {
+    .main-content {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 5vh 95vh;
+    }
+    .navbar {
+        z-index: 6;
+    }
+    .resume-header {
+        grid-column: 1;
+        grid-row: 1 / 2;
+    }
+    .resume-content {
+        grid-column: 1;
+        grid-row: 2 / 3;
+    }
+    header {
+        display: block;
+        text-align: center;
+    }
+    .profile-picture {
+        display: block;
+        margin: 0px;
+        border: none;
+        width: 0px;
+        height: 0px;
+    }
+    .name1,
+    .name2 {
+        font-size: 2.5rem;
+    }
+    .contact {
+        display: block;
+        font-size: 1.5rem;
+    }
+    .mail {
+        margin-left: 0px;
+        color: #7159c1;
+    }
+    .resume-paragraph {
+        font-size: 1.3rem;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .social-profiles {
+        display: block;
+        margin: 10px 10px 10px 0px;
+    }
+    .section-title {
+        font-size: 2.5rem;
+    }
+    .btn-experience,
+    .div-education {
+        display: block;
+    }
+    .education-info,
+    .role-info {
+        display: flex;
+        justify-content: center;
+    }
+    .role-name,
+    .company-name,
+    .graduation-name,
+    .school-name,
+    .tools-name {
+        font-size: 1.3rem;
+        margin: 4px;
+    }
+    .period-text {
+        text-transform: uppercase;
+        font-weight: bolder;
+        font-size: 0.8rem;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    .div-education {
+        margin-top: 20px;
+    }
+    .tool-icon-item {
+        margin: 10px 10px 0px 10px;
+    }
+    .f-item-skills-1 {
+        margin-top: 10px;
+    }
+    .f-item-interests-1 {
+        margin-top: 10px;
+    }
+    .award-list {
+        margin-top: 15px;
+    }
+    .award-title {
+        font-size: 1rem;
+        font-weight: bolder;
+    }
+    .profile-picture {
+        background-image: none;
+    }
+    .nav-brand {
+        color: white;
+    }
+}
