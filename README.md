@@ -2,6 +2,8 @@
 
 A simple resume developed with Bootstrap 4
 
+https://miguelcassimiro99.github.io/resume-miguelcassimiro/
+
 
 The mainly component os Bootstrap 4 applied on this resume was nav-pills, that was put inside a navbar.
 If you access by a desktop, you can click on the profile picture that will make the navbar expand, showing the options to choice.
