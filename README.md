@@ -1,7 +1,7 @@
 # 📃 Resume
 
 ## Project Description
-<p> A simple resume developed with Bootstrap 4. You can see the result on this <a href="https://miguelcassimiro99.github.io/resume-miguelcassimiro/">link </a>.</p>
+<p> A simple resume developed with Bootstrap 4. <strong>You can see the result on this <a href="https://miguelcassimiro99.github.io/resume-miguelcassimiro/" target="_blank">link </a>.</strong></p>
 <p><strong>🖥️ Desktop: </strong> click on the photo and select the section that you want to read about </p>
 <p><strong>📱 Mobile: </strong> using a responsive mode, the profile-picture is hidden on this mode and the main navigation bar is positioned on the top of the screen.
 Click on the name on the navbar to access each resume's sections</p>
